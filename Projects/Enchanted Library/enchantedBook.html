@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Enchanted Book</title>
+  <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href= "bookStyle.css"/>
+ 
+</head>
+<body>
+
+	<h1>The Enchanted Library - Add Book</h1>
+<div class="transparent-box">
+    <!-- Form to add a new book with POST method -->
+<form method= "POST" action= "add_book.php">
+
+        <label for="bookName">Book Name:</label>
+        <input type="text" id="bookName" name="bookName" ><br><br>
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" ><br><br>
+
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" ><br><br>
+
+        <label for="publicationYear">Publication Year:</label>
+        <input type="text" id="publicationYear" name="publicationYear" pattern= "[0-9]{4}" maxlength="4"><br><br>
+
+        <input class= "submit-button" type="submit" value="Submit Book">
+    </form>
+	    <!-- Link to view the list of added books -->
+    <a href="bookList.php">View Added Books</a>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* General styling for the body */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+	background-image: url('fantasy.png');
+	background-position: center;
+	background-size: auto;
+	background-attachment: fixed;
+}
+
+h1 {
+    background-color: #006400;
+    color: #FFFFFF;
+    padding: 10px;/* Add padding around the text */
+}
+/* Styling for the transparent box */
+.transparent-box  {
+    background: rgba(0,128, 0, 0.5); /* RGBA to set background color with opacity */
+    padding: 20px;
+    border-radius: 10px;
+	max-width:200px;
+	margin: auto;
+	
+}
+/* Styling for the form */
+
+form {
+    margin: 20px;
+}
+
+/* Styling for the labels */
+
+label {
+	font-weight: bold;
+	color: beige;
+	font-style: italic;
+	text-shadow:0 0 1px black;/* Add a subtle shadow to the text so it will kind of outline the text for clearity*/
+}
+
+input{
+    padding: 5px;
+    border: 2px solid #006400; /* Add a border to the input fields */
+    margin: 5px;
+}
+/* Add a subtle shadow to the text */
+.submit-button {
+	background-color: beige;
+	font-weight: bold;
+}
+
+/* Styling for the paragraphs*/
+
+p {
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: 20px;
+	text-shadow:0 0 1px black;
+
+}
+/* Styling for the links */
+
+a {
+    text-decoration: underline;
+    color: #FF0000;
+    margin: 10px;
+	text-shadow:0 0 0.5px black;
+}
+/* Styling for the employee submit button */
+.submit-Ebutton {
+	background-color: yellow;
+	font-weight: bold;
+}
+pre {
+	color: #FFFFFF;
+	text-shadow:0 0 0.5px black;
+}

@@ -1,0 +1,94 @@
+/*Code that implements appearance detail 1 in homework handout */
+	body{
+		background-image: url(background.png);
+		font-size: 12pt;
+		font-family:Verdana, Tahoma, sans-serif;
+	}
+	/*Code that implements appearance detail 2 in homework handout */
+	.top{
+		background-image: url(bannerbackground.png);
+		height: 65px;
+	}
+	
+	/*Code that implements appearance detail 3 in homework handout */
+	.movietitle{
+		font-size: 24pt;
+		font-weight: bold;
+		font-family: Tahoma, Verdana, sans-serif;
+		text-align: center;
+	}
+	/*Code that implements appearance detail 4 in homework handout */	
+	.main{
+		width: 1200px;
+		margin: auto;
+	}
+	
+	/*Code that implements appearance detail 5 in homework handout */	
+	.rating{
+		width: 900px;
+		padding:0in;
+		float: left;
+		background-color: rgb(225,214,151);
+        border:2px solid gray;
+	}
+	
+	/*Code that implements appearance detail 6 in homework handout */	
+	.overview{
+		float: right;
+		width: 250px;
+		padding: 10px;
+		background-color: #FFCC00;
+		font-size: 10pt;
+		font-family: Arial, sans-serif;
+	}
+	
+	/* General purpose useful style tag */
+	.imgleft_nopadding{
+		float: left;
+	}	
+	
+	.rating p {
+		text-align:center;	
+	}
+	
+	.logo{
+	text-align: center;
+	}
+	
+	h2{
+		color: #0000FF;
+		padding: 5px;
+	}
+	
+	.style{
+		font-style: italic;
+		font-weight: bold;
+	}
+	
+	.class-number{
+	color: #FF0000;
+	}
+	
+	.space li{
+		margin-bottom: 20px;
+	}
+	
+	.bullet-style {
+	list-style-type: square;
+	}
+	
+	.font-weight{
+		font-weight: bold;
+	}
+	
+	.font-type dt{
+		font-weight:bold;
+		margin-bottom:.5em;
+		margin-top:.5em;
+	}
+	
+	.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	}
